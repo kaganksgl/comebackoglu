@@ -1,0 +1,44 @@
+HOW TO ADD A NEW DIARY ENTRY
+============================
+
+1. Open index.html in any text editor (Notepad works).
+
+2. Find this line:
+
+   <!-- ===== NEW ENTRIES GO HERE (newest on top) ===== -->
+
+3. Right BELOW that line, paste this block:
+
+  <article>
+    <h3>Your title here</h3>
+    <p class="date">6 November 2026</p>
+    <p>First paragraph of your entry.</p>
+    <p>Second paragraph (delete this line if you don't need it).</p>
+  </article>
+
+  <hr>
+
+4. Replace the title, date and text with your own.
+   Need more paragraphs? Add more <p>...</p> lines.
+
+5. Save the file and refresh the page in your browser.
+
+
+EXTRAS (optional, copy what you need into your entry)
+-----------------------------------------------------
+Bold text:      <b>important</b>
+Italic text:    <i>feeling</i>
+A link:         <a href="https://example.com">link text</a>
+A picture:      <img src="photo.jpg" alt="description" width="100%">
+                (put photo.jpg in the same folder as index.html)
+A list:         <ul>
+                  <li>first thing</li>
+                  <li>second thing</li>
+                </ul>
+
+
+SHARING IT
+----------
+The site is just one file, so any free static host works. Easiest options:
+- Netlify Drop (app.netlify.com/drop): drag the whole folder onto the page.
+- GitHub Pages: upload index.html to a repository and turn on Pages in Settings.
